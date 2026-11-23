@@ -4,6 +4,12 @@ import jwt
 import logging
 import jq
 import json
+import tqdm
+
+import socket
+import urllib3.util.connection
+
+urllib3.util.connection.allowed_gai_family = lambda: socket.AF_INET
 
 CONFIGURATION_ENDPOINT = '/.well-known/openid-federation'
 
@@ -49,7 +55,7 @@ def parse_args():
 def fetch_entity_configuration(entity_identifier, verifyTLS):
     try:
         r = requests.get(entity_identifier + CONFIGURATION_ENDPOINT, verify=verifyTLS)
-        entity_configuration = jwt.decode(r.text, options={"verify_signature": False})
+        entity_configuration = jwt.decode(r.content, options={"verify_signature": False})
     except Exception as e:
         logging.error("Couldn't fetch or decode entity configuration:" + str(e))
         return None
@@ -101,7 +107,7 @@ def recursively_get_entity_configurations(entity_identifier, entity_configuratio
         "subordinates": subordinates,
     })
 
-    for subordinate in subordinates:
+    for subordinate in tqdm.tqdm(subordinates, leave=False):
         recursively_get_entity_configurations(
             subordinate, entity_configurations
         )
@@ -112,7 +118,7 @@ def recursively_get_entity_configurations(entity_identifier, entity_configuratio
 if __name__ == '__main__':
     args = parse_args()
 
-    if args.url:
+    if args.command == "crawl":
         # We're crawling!
         entity_configurations = recursively_get_entity_configurations(args.url)
 
@@ -120,16 +126,19 @@ if __name__ == '__main__':
             with open(args.output, 'w') as f:
                 f.write(json.dumps(entity_configurations, indent=2))
 
-    elif args.input_file:
+    elif args.command == "query":
         with open(args.input_file) as f:
             entity_configurations = json.load(f)
 
+    program = None
     if args.query_file:
         with open(args.query_file) as f:
             program = jq.compile(f.read())
-
     elif args.query:
         program = jq.compile(args.query)
 
-    for result in program.input_value(entity_configurations):
-        print(result)
+    if program:
+        for result in program.input_value(entity_configurations):
+            print(result)
+    elif args.command == "crawl" and not args.output:
+        print(json.dumps(entity_configurations, indent=2))

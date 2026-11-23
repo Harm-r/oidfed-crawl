@@ -1,0 +1,378 @@
+{
+  "https://ta.127.0.0.1.nip.io:9443": {
+    "configuration": {
+      "exp": 1793897658,
+      "iat": 1793894058,
+      "iss": "https://ta.127.0.0.1.nip.io:9443",
+      "jwks": {
+        "keys": [
+          {
+            "alg": "ML-DSA-44",
+            "iat": 1793278985,
+            "kid": "QIN7FBNpeKK4L8fwzrOdgpK9692Y-BW6RK3RqKBGZB4",
+            "kty": "AKP",
+            "nbf": 1793278985,
+            "pub": "Ohgrz6ywTIUKYJcGKOTPG5AJSepqPyX4YYPvwpIdfvuzpqILcQRWdYXO-CcR9GFo1HqeBPTwDDbwFMC6SJ7jAroeEnyNo7zB6fdT3xaDA3QUObNSlhTaGPUR5NTQFvOslnd-nWe_bKwYaTDLuC1q3Xh_UTgO45DVAjrk9yOQKzUlZTmv3y9Gbn0W5-4eD5WnOCpKVLGhw4R1cTb-MNrIbyv41erIsPAmf3rzQTCLS8bjVYqLsHWiamaHtEG4vQK_O8BgXjd1aGw5SBdhy-MNouEv95tWG4nxUi8SlJdLIghHdhzD1yaww6Ep2Pw9dP8PughrKkNiMh1H6Son6TjeBJPXPc0VdbOJ0umrTMpepugJmtM2FEDH8nuTCbl4Aifo5UpKZXdx2TbcPNR9Cdd8aCWb0IJmOqyKma4gRSyY9axMRWrTsX5ciCL9IyiXbnonfH-EcDwXAsjlejJH0Nz4C2TLcfsCkrcZdzVZlTJ6SZYG87ejKC_fni_cs8e7OvhVYzElmO6of9ob4XX_swS6DlcJEsHsljBgGRZo3VSGODUOkm-DkX-seeuC0kcCWLoRJt5SBVFvsLZ5KRtPsLyAYZLrx5OeXY70UEQTcPQd0APoGruiYeqGR077Smaz8xLsDPFVieNxL9RkkIt8n1zjBVZuRKBNYMHUhSKFectAd7DTvyEyUn0eDCb5xBWDcJxqHSkb4jYWDXErofNzRDPLSGE2B4adNpy88ZkNcEinEZDEDVIpRhnnby8j983PpklUN47dn7wAs34W886GAulGnIeX_KTOPEiyPuww1v9TaOjjp0OF3KvQA_WV3kc9uWrOUh3E9V6Uqck4_fTij7GD2KtpK9t0vxu4S6SbpijE-N4SqhzhxIop4yMAzHwZ4pT_yegGtk1C9TpCsCs5CiIhrbWMwvozGlvhcswvdUPhnT4lkTUrUhYp3Y0mWF8163oy3gBynCqA7-GeYtcGyWdGsn0Af_WbOMiuFwWiE47Xpkvxa3Kfl1KkBeGIkGE9q0LNA0zn1lR11UwR5anMPwSiE3_ejWOzgEZuIBfNEoGD0gpZLLhLgwC0iMWILp3xLnag5ARLO3HXEowmRc8sxNDSBN8B_syuPQg4ILxmpyiziZTtw9GcSyIeIH4TqNDF7ztR9h6NBu3WBFvdidWLt_VA6fadpsxYHcOHEbNkRx6hW471SyTWBsabFhlfPmbLKSygpkneG9F-kssbdey2sWmmbB3DwtpsCgYprDUbCg1BuaGJ9RWTRFiy1H8SssDXIvPvbxDYE3iPdGrIZbzOLVpFhIn2_MORhlAT6eifaWoKa_7vFkXg9IOZvlhIK1SWnEHbOhUJaDTUI-uAA305krf11SGlDvh5ViD9LBs8ta_1U2nP1UU4N9L14iJ9XgurFWxvHm3eo2JCkWKN68IWjXvk0nhamWOuMmQTF03jSApKjtrk364v6JubEw79y1_Nn9cLWu4bzqZSg7_CmGoJ125jYx2JEyLrz9YL2FTM7rl6wPNlmq8r5CnZp3_Iweo3DM_Kmw3ot6IXIZ_esfABOoLwrEMrm63MtY1nYr7cVZQeCPOxoHUTHBZjznRoEAtyl7YuTXiEnFkvibHiLvMUjBqMFA1i0cxM9MIV9SKvXw9X3L-zSUjikU2yI0d-EYmmwjAeDWts3G8xmr3vfuYjEDNSMAb5d8ekULiW11CPgBFgVFKcydwFSLS09Dzkcma7Mkl4Kx5gJ7JZEjbHUiojJiuqvg",
+            "use": "sig"
+          }
+        ]
+      },
+      "lighthouse_version": "0.24.0",
+      "metadata": {
+        "federation_entity": {
+          "display_name": "ML-DSA lab trust anchor",
+          "federation_fetch_endpoint": "https://ta.127.0.0.1.nip.io:9443/fetch",
+          "federation_list_endpoint": "https://ta.127.0.0.1.nip.io:9443/list",
+          "federation_resolve_endpoint": "https://ta.127.0.0.1.nip.io:9443/resolve"
+        }
+      },
+      "sub": "https://ta.127.0.0.1.nip.io:9443"
+    },
+    "subordinates": [
+      "https://op.127.0.0.1.nip.io:9443",
+      "https://rp.127.0.0.1.nip.io:9443"
+    ]
+  },
+  "https://op.127.0.0.1.nip.io:9443": {
+    "configuration": {
+      "iss": "https://op.127.0.0.1.nip.io:9443",
+      "iat": 1793894689,
+      "jti": "09d362d455ba8690ff3d78ce781f7e81c1a803db602ba8b6eafaf27b703a02241827250bd672fc55",
+      "sub": "https://op.127.0.0.1.nip.io:9443",
+      "exp": 1793981089,
+      "jwks": {
+        "keys": [
+          {
+            "kty": "AKP",
+            "alg": "ML-DSA-44",
+            "pub": "xK3EPwwIRClYCRFZUxmcHYv5qfs0sBm4OSLE4yFAlSCKlnLwqSRQ2z2YK0rCU8vPEK1EqcVAkIr2CATEa5JJmL2aDSjOkofm7haJWNNQvkdzUpAWx-uDiZOlkbRnJFZUWpgrxyYD-IJDCSL0tskQcsLFFRqUg6frwVJTnJoSe03mkNDCMbKeiKrfq6-qtEP6b9L1X8BumWGUsRiYDhy9YMMNbs86YGZu7yGSbsPguUouncBqfsfCLVT-G7gDwg42-lx8QdDIjEi97NLQdKIJ0pdnQZu436j4_BmakszGbRguXzxW9kTRpD1X63CrxQfxVSVBsII6MEpZClJCB5ZejqcKWiBPqsFWlM1KUAGRvdu3rpWjRlvRFqqmFukOJFRAnmbniyI8n4M6BYMk65himWsvcosRTbf7jH3vjPF1nYQFEvP9J8GTqXG9hzzqRK9xm1jR7v6p-LWe97z4gTfJeGJO-0f-646p-uF1VhWNkBG-HRfaBsM3rLYVCrvG0REWIojOrd1zHifwUtBOAsm2LkH0ggxpgEj9HuZCm6ykwCnD2zGcw3WlB08NTAE2Yj_QDOvpWaF3jCsNuDKs38LZJmo11HBT0fBBL9wztzQGZVFnFnhuQa4QCINAu9zOxdxf0d4J51HbffQbC9bGh9i6fPH2iotTDplpV3SpPIrhL8KQKiaQC5pA8i-Y_WYQmRIu2Y01U_h_ip0syN2jwXxFbRNYKQrmeqsB_nxcxCq7n7fyAAdlElOZqfLt-9emsavYytmj2LanRsFSu6mzJV31hzAmJ4KEN6p1szFapSx2UkBuvH-0xjjiPg-YyMkoY8ZAIMKlgrzKl95FCrSJcHw4D3wpIVB5wuCFaVdgKHMgAE6T6dMqfZIRWWRANYQiINCspw1WrX_SHa59-jPwrWK3fXaO5RpZ6gVXI09y73PgCy8cgOcY8ggd-KKaCjzHO_2umvgUtdsae1mhkjUQuJlwMIheWemFWpcQ91YEH780RXE2w-FlDK5zCcSjV4gWxe4Okz6nNa-hsI4eW228dScyJLSGwd1xyS6OeMGxjeWYkJWzNuAm-mjJZ3fEe5HnwehITxipdRqEyV2up_ON_5MBHDbIcmGE298DHG1Zmnl5nIySuRpIUf4unU10YIApasOcZbvbPedUp2WpmNpcyRdMtZoVDh2B8ibhgeNwELyUvd9bb37d6E6nV3q6_Jjb9NdH82ZwdYCbGqh6dd8A2SXRDm-0xWIsdvd3CtOuWVTjSE0Gd7fE1yR7VHTJeCJv7kF5vlztr4ckg98LF8FQ6ElDfIKedNUDUrf-ONavdsDhCLyajSFiFFt4VjAYug4XNLx2rEYbBuBWSDptrEzMWQTYExdiKI3GskWBITDGZX0CbP14P-7T9V5-C_CHOfcER34SDAnGgd_L1rcO_RGfAAV3D5oeepusSCYT-AkpZKjzgoppbyg_hAIthhQbYrMkf2LYa_YU9XnnIe8Z6l00jlBpucu1ruB746cjQMApyfOafuwphn1nEtKLL0jjzA34CpcHmY8Eyi220C_8wgu_pY-owjScrOvRD4cFz5lCcbTXhe12IVxOvpAqFS91McNUqBumnX2ago0f9mKaoBlQ6sV7PClO1_OTNsRIAgBxWmYbuPUwLUuKItUNMDc4iXEHwWkjyjAkmTM50IluRQMWU0kseu7OSLyxbFWB9RwhTcbYklkqL2peV0s-vft6pdKVo3xLgtsY_RxvhB18a6vG-4lV3w",
+            "use": "sig",
+            "kid": "federation-ml-dsa-44-01"
+          },
+          {
+            "kty": "RSA",
+            "n": "vApIyG-VmzxJ0z5BiJCxi-o8ccJh8GfGTXfoG1TXnU45Ash5Oiit9NVeygN3YeGF9dF5daFMkNd6bTOxeF6Z3tSZPiGg_AODnEWSzMGUnMSyi9cdPYGauyxPlBkEp_gpL-VfEpOdslngvKpNkPze7kjze4ENrqO6OTLNF2Zs82Aq0bS7d2jD4NtwF8grGo6pADy_xRH4N1dMDfFHbkNR081IxIu7foCQqNzMsp9p84XqFYZq9E1gH7j2toa7KQoBgOLNRZ2C3PfqDdR7UmTG9jzMbCuXwkpNT96QjmRHSYdW8eHa0KNEW0srWo1P4FOFMhyCBlw4fioI_PduZWZPD0dewJ-oDCTCvPbeqwtZQdwHX2yg1l_DWYMSn-xlS7oe_B8iEVq2WI6bQjOgb8kLVOyl9YUEtZb425OzMz9t2so_TJTxpSDF5jl9ABNJFLixDpVLNO8ZPZD7pYIt6E24uTicsNikJXBzlpCQnka6g7S_aEvpYHToEfH5i2ouKLBl",
+            "e": "AQAB",
+            "use": "sig",
+            "alg": "RS256",
+            "kid": "federation-rs256-01"
+          },
+          {
+            "kty": "AKP",
+            "alg": "ML-DSA-65",
+            "pub": "zGaKF_eKVjQS9AqSg3Trigk0BVDPGmjjYducBXwGXHTNGEVKx1KTT43ZVazclkzPd5y_rWobxw_rzpOPe2XldYRgPjzdxlbeGfIrqr0kAxZq8k-5R1osh_mfMMCOQ0MzNtRMw_gEc4fpcsr28KqCRNO4EucERUK6S1cMJVG-5_Rt381IgUkJrSpYSD1ZVVntLSJxOQT-yTuyyh1s7mnrUK8ReBdI3_4WDVsSPJE9qFflOUjYcfy1_mLVeO5tk2ZVIjsEGP49iGE0a9mel9FKeXfsGzhX5h7Xu7hX6tjMZ2irSsUUI1-PuVggT8LwzvZWS-gRHQw5DBzGCtJsSmxQqBU7RmIVISDWc56WddBl9LmuAceGj9SvSa-911v2tgAqd1qtHKrVdSrcHqwSPM6jnjBoFHXQcGIm_7xH-gu6pVekjesciKGbpHC2IGPLbBOuZ7ybEQMgvy0KQ_mD9VRFq4XUJ_S5J_gWyruFjuq3EFqjmykSs_phmcOi51MTtFOE94dISu1gUralfYHIJbYUF2v2LVKOKKc5uSHii-JvXn4_MS6eFmYUPCX1oPp1t6ylrLRMZVOxl861hMU94EXs-JM3ZvCM7AUXuHDrBUmCrUjs4qlIMA7tHB1xQigsEXd4zJYqWbbLMkJB5wV_zf0cU8ZASVn-La0aE7GTT_ztktJqInSnyhY6q0jD9bEubqB469bgKipuE87eB6xAYNx5CiNBeqmqjJtENrdeZziGKupwgIE0g-2lqwTcDzS1D-3saAagkDMqEH8XdWJvD227PsJa-0wX4WmJyTN0G-8v2xv6h2u_08HIbHdeoXQkLRhD0XOIpJm9G1pYnJo43Co7Ozvei2Z8tbLQr2bFIDB68xyaxRUmF-2IlJdfcTFXcIJg0wu4edbsND-HkIDWM7Z1UvMc42NE3Yqv2z8XzSIMFkuGo2h6Iy4fF62FYSDvHFOYPZdVYmMTgYvnsXT14BYhLh6b56MM0Ys0dQMncPiGLLc16dFkzgyzEXTvcLGiRR0x6dR-FuF9O_-Zgjy7zMtK6IXgGaswPBKUq00CDVoJfIFGPkxL1vjrMUooANi6a0MQjqjbtCH-X7Q1Tav28en8o-1c7lH-1egZj7MG5bUf9ioNEAnoU9yM1ozsA_MUJpd1ukRuvBjxxxm1pVrizW1Z6rY_vvKVdUwPG171FiecmZ8WudhzRAwC5uN9iqzCxM64YKGx6HCU3niWvxNbWB7A2H0WyuGTPeRrsHxjNbaQ81qQi0f76ZGUfs_b1VajrITnXyJiBZ6Nr4GLYsEtRfau8EXQxW4oFJfLw-A7yu-Qb76XFNqlABLz_Wjhun9FSRCcaJ-7Rd26gzR8rtBlgF9n8UPZonyfpp6VxPHqPjvMPrHv8dQrV__jd-jx6G4plozbQHt_28a4w3AwtRSCAYu1PTlpYic0ysP1ru6u7PIxtIig1LHU0JJhf2LssDdoIPl2fTSArb2jGo-8CibzM9elZoDNR7b5-ppzkR_Ao2gMvJXDtxhaksEqKXE6sGH67S3dwirSgYMxtubh-Lxkd1aprFKUcDm9HTDsb56Jlf8sUwYTJVHrububnyT-GXhJoBHAPU871VZk8dGBb3mvbVb5MZNhKOCe8m5E2gxoWDGRgfB0yddwjn4MhM_VjXkPXvzeP5ueU5DuN2BuSwUDZTTXws-LTUBHpG59k_vQZavjEwPhHUJj0T1TlLDEJ70MUZMUKESMkg4QCoeRrmUTGsD4-cwn14LNNzcdCrsiAf3ooYyqI-S0zIku6Y-2Ys0x_sV4FzrnwT7NiH_BiY41a6viH4wVbMMu8hf_62zeCZCHcWGOMF92HqWT0_fApH3pUa6_WZg5wtCW7LMd7aZQZxGFFFKZxMyaman5VeONBBiWWvooJsC7AmH1tjpiGEIEZFJSsY-NLPAQLjx9svjBDIUWIX0i0TqWMB4cWKufKURCltwgrfTOUskGXHTxLGwB8o6u1TOFLzful1Yx-a799D-heMGe-3z0eBOHXpE_uvScFoZjQR_HU7keI72eBp57IxM2rfBMEFZxl3SeYNT8tc0U3l77zJG10Rsclvv4ke0b-WaWNJPf0MppN6ybCP7U1aW6KVV94GxujrHFkp6zgGUOwdJ4XT83-RD-k1fpsL5iC9sbQXn7JQGplMS65U9Wn5avsQQgl_fOXqbx0ZryAiDGJCOGpvSx8iEoeIfVKew6UgSjLGWvy2CHAgmc_GmduWvq5T1RJU58x8Zs1cre-xdukeFDzxWbi8luJEsk-OGCCDgezFIhyvKdAPcCCKBFzZyrdDJ4Yc_vEz1ge1fcScAf2iK0TKsBmAuMm4wzPlABXSqnaI4YRoW9iijOdwZu49bcQAro_pphWOs2X5qfbCpKWI28lRjnuKGux8EQ6Qrn0KkoJWUaeKFQzhwyHWsNgvr0BTh7g2BUHUlKuo7eIBgNh6DtVx47V72S4RKFMPqxMk3cI7YHQ8C2PnnifGHtMXznZuX3h-G_IQ09IQw_rj3J_HNdNnKXv6-4uAJ2ukPkRM53IClpsKKILl6B2635PlQ4cETqIHm9hivQKUetC9IUjYKkkY0lLszUONQiglz_OxE",
+            "use": "sig",
+            "kid": "federation-ml-dsa-65-01"
+          },
+          {
+            "kty": "AKP",
+            "alg": "ML-DSA-87",
+            "pub": "hwzMJOsy8Mc2EhxJciSJoc3bsJi6yYIC58W_JHmzTkCIwGF_xHf3-kwm8T0cgggHJuBZ23D7wcu3jx9_FGzVwC3xivXHZnaBp9Sn4IMCMrHrsnV_4HuiIxn1rOfG3bdDmz3eiJjaWgXhsCMkqj41oe_vhxiitNV5UQft4QOk3WfRh24eouLcg7joYix0c4aCXgWD0p3kAxcdAPqKgJztq1DcxCbBeZNuINCY2aIBgTUVkrTbSV8errNGqa6r5N4jVyXQYDS6JvyJnlDZ4ocazKArCyYg_W2ZSCsE3UmpWTlCddSJs5wEpfSFg5TPZkFRVE6Q-NnTyf5rAPt3j3vdkIpRO8BkZEbysKLHcaodgueT8taSC-5uprTM7yb_fKaux4IfZtJ5OBHbcL7G3s49BSZ7h5HDziF3vu9b8kqIreSN2Pv_-nnN5mMjfT3MpUgS4LbBWlBsEtEaI9Ye_vNSblJZaxrYubxYho1BRAyYn1Bss0VklxolKuYYxwUVCeEmxqAFG1fZaUZL08dmDURCycwZOGDpE3LXjmiiMY41MuhBGTWPQEasrJcz0ZdUzLmVcndGsC5LDLT9YdTYgisYKug6rqPtfWgVcezjUS7DCZZ56cBK3rDlsvjc0qbXAieyLBvlxpBC4FvUrZsGOcDLqP-NK5mcrEjWypi-ZTUASaBmjcNgIQQJYRyh9mCsJMc3RJyKH9sGlVd6s9XwUVa7iZGueYZ0rcoKHtNMKFIXVkf4LyuIhHvVl1rEI3UrCCFmpm-smHxB5lCbFpgVJgiCdYgNaqPsfduQjz0bIu0vPUm5CRZ6aXDcN07cxvi49gVBGiu_QbqVI8EMIpGK-84HVLqMd0FvNgYDtcdIlpP_D4Pcmrvp_ycfL8QA7Wb_urHGnDwgFPzIF76X5-cgFdzdMw5Brx7QWr66WQaxNG7opqoptuqYO_cWC2hmzqR-ViYnzNGSl9rwO4NkNDqKntrYEUCZh3thpfvYqA2-zyzicfKsJtSLHq-Ra6TqQ86pxSIbddzFfSGg8l3birQX8GelGHAjDvPe0EBtd9ucNS5iQw4_P5EVHDgP4yr52mz9HmV_dvSr4b35HndOvR_G6lDU-C9I_GM10w5xX3W2LoERt1BdHiAN-4F31VpAyRX7TE1iszJgGEijbRIQUfcSDR1s4ASNXd7GeU7zZDFLmPuxxukcA3-eJwEye5-vfIgJcbXUCTAtaeqe7ArV6msUGqYcE89thcnrzYcdvqpNkYeiffU8OnhhNBi5gc2ae1Q_xmOridBSVVTh_e-FlfoPJm4IxOg7xuFI7KbxLtTY2OUQ9133GeiXmO4IEREy3aLETwd0fV86DTiD8TAu-_5WYZKfHLz8HvqpzMYFR_k27mDbYS-SOzMdlS6y-xROhgEzQN7uHOFMM5XPMI5GLrmOCu6uLTUf6a2bElNDSYZfXD2vJy6K2ZGtnC4vNfiOJGeLEMdPeJd0gfOfpWG7zQ6t-KjzHZLL5wnjDJ_CSrcqFlC05ebSinT2sprqzWd7mHbkZ71gn0VIgQx9STZ-SPm-zDQJ-_-vGfjvl0URMWEKwDkOA43-YYEkQPd2u86i9secxMKmXgSB5TOfTOC1nbCQElMi1Wl5QnQapCBJnSsRbN0iDX6h_C_8Ber4DWZzguyONgGHwdl1I0x5_fjAXkZoBbSrNisfY2EUK9P-pi2U1vAiDlPcwAke7SuajMdRx7NzTDrk7Q8Zfi-rYOEjv83kSjsc9Ro7gsHpTjpjBIPzIxBWLbb_SQIQ273iMEe-p7sOyYLDMcEMG9KjnETCs3_MVN2dC5a18ZoK3ms4BzLau6QEdHZymmILru46mZ1_N31ZOt6hC3JZEbtp1hkOi8falGrPV8YBcEiqwk3mmMCUNKLnrsaLKpiM4TuPIFfnFLZb2GMHg9jGFt8fIKWswFVxr7HbdWISgBNCojgXzbps1pVyYboNcgfJEVzN-jQFHVDpUKEQepEGcv4bT4im6Zqaq1kC0Om7zwRRIS4SzhvUGYg7JgmF0QXhvAlKQ-htySRLzw4yxu70z22APWKIIaN2FnTJReKQ82_ddgeDdmfHrfc59rsC0RESxd7KTe5e-02kp4wJYKGApi5U9EJk332i-MJVgFsot6PusGl_wlwo6Ja0eulWuCLZ-NxulKFQGJ2VhDdbkyLrMydvCeDnsaZJLXiRdXi6ITQSLXiDXwLTJWxhaQtir__sTrCOAARvEWX0YSHwoqbMp3SPVr1C2LXsMKCABnVAuzyCFP9pOO5FmfagNhbzGO_eI1CnUprwrEreJyLhT5tHWP4iPlo8SyfzASn4gX_IdML1ynzAlizjPNIv5Ic1lFao90sWrmy7K5LzOZuuVDTIN7dTZ1RvmRiu2jM8zZqZ50Sj87g0sMeJ8GCuc4DRjqJXJRA1K9giiWKF_m4OlHxc8_xwlt_YRUzzWIzSxXaGYNyBTv6d-7x32lh34G_eYcw0MyAgt6EmSMzH2qsyBxCHEzdL8zkLJ6ISo4W1iTqVjSUshttfz7k2XuUSbXD4Cc0TVyF8IMw1_6GbPs7quSy-jMdXPiaXAOA739Q-Jz9zUw7Kn_4gbwZfQfUEZNttjOAr3h7tIGjGInfS920cXHm4BDVejqznN7AgKRb3yJ2tdiPcWNL7ke9_Ug6N3xene6OatEB0s6wnHHcQ3FZKkcRrxKcq0psgmYgze-f0fQpUb747vzcDunIk0Xzt819Dq-c5GjuJs4kpeM2v61bq6gx2PUqbjX7CUECbZCRSyBNACgUec2Q036ihHKkYbU4bkV20sIGnMnM_oop3E2LvxRCv8HI0WCa6uYGJG90Cr56hQ23nb8dx946be6BYC7vgAIoNadaIezrtyC0_ywf0FqI_wit9HpHfNezvn3zIHgI7KftoGrcvuVC4Pv5CrsxFsZGybCZgE_vXlJXWbBJGJgnLySmYs4mQdEjmbI-wXDjN_iXp3elytzAB4TiOjdr079hW2Wt65uoccGn4j9Ju5KUaZILJYdmyW_OXmXb92JYc7GCK3mNJV9Z4jgvNQdE0m9-96E9HgcSsIcVJb9JClIqqNSPkehNzg8MB8K2bPsTl8m4zJJb3tHwbugvgiRuUqNrnmEzhH1DuoZ0zpKLYfOnLSQztTcQ2mo7LOLboH7rV5wroYttEshrJqd2f-dVBz45ZNl9TSpIJeTDcUSjpdAUcov4KwPfmUvMPBYAELnCGJrzdlkhUPjvQhOYxM37-69wywQ8LfzLRru4rZFJdDcBMDeDHBQVa09ELTw99P3zf1CbbJ945FqzYVvS-yc2ihMQKtQKxQM9CGFCIxC6RDnRgC6juJ2cYcsh_ITbM1RuvB038oTbFfxoHrinlEFdTHZr_wdp85uJew_VvoyM2yESOU-VOygq92p7k7wQu8d1YHvSXKujyaPwBD2jxdHxjVdGybmdl7-6XyygP_3p5",
+            "use": "sig",
+            "kid": "federation-ml-dsa-87-01"
+          }
+        ]
+      },
+      "metadata": {
+        "federation_entity": {
+          "display_name": "SSP ML-DSA lab OP"
+        },
+        "openid_provider": {
+          "issuer": "https://op.127.0.0.1.nip.io:9443",
+          "authorization_endpoint": "https://op.127.0.0.1.nip.io:9443/simplesaml/module.php/oidc/authorization",
+          "token_endpoint": "https://op.127.0.0.1.nip.io:9443/simplesaml/module.php/oidc/token",
+          "userinfo_endpoint": "https://op.127.0.0.1.nip.io:9443/simplesaml/module.php/oidc/userinfo",
+          "end_session_endpoint": "https://op.127.0.0.1.nip.io:9443/simplesaml/module.php/oidc/end-session",
+          "jwks_uri": "https://op.127.0.0.1.nip.io:9443/simplesaml/module.php/oidc/jwks",
+          "scopes_supported": [
+            "openid",
+            "offline_access",
+            "profile",
+            "email",
+            "address",
+            "phone"
+          ],
+          "response_types_supported": [
+            "code",
+            "id_token",
+            "id_token token"
+          ],
+          "subject_types_supported": [
+            "public"
+          ],
+          "id_token_signing_alg_values_supported": [
+            "ML-DSA-44",
+            "RS256",
+            "ML-DSA-65",
+            "ML-DSA-87"
+          ],
+          "code_challenge_methods_supported": [
+            "plain",
+            "S256"
+          ],
+          "token_endpoint_auth_methods_supported": [
+            "client_secret_basic",
+            "client_secret_post",
+            "private_key_jwt",
+            "none"
+          ],
+          "token_endpoint_auth_signing_alg_values_supported": [
+            "RS256",
+            "RS384",
+            "RS512",
+            "ES256",
+            "ES384",
+            "ES512",
+            "PS256",
+            "PS384",
+            "PS512",
+            "EdDSA",
+            "ML-DSA-44",
+            "ML-DSA-65",
+            "ML-DSA-87"
+          ],
+          "dpop_signing_alg_values_supported": [
+            "RS256",
+            "RS384",
+            "RS512",
+            "ES256",
+            "ES384",
+            "ES512",
+            "PS256",
+            "PS384",
+            "PS512",
+            "EdDSA",
+            "ML-DSA-44",
+            "ML-DSA-65",
+            "ML-DSA-87"
+          ],
+          "request_parameter_supported": true,
+          "request_object_signing_alg_values_supported": [
+            "none",
+            "RS256",
+            "RS384",
+            "RS512",
+            "ES256",
+            "ES384",
+            "ES512",
+            "PS256",
+            "PS384",
+            "PS512",
+            "EdDSA",
+            "ML-DSA-44",
+            "ML-DSA-65",
+            "ML-DSA-87"
+          ],
+          "request_uri_parameter_supported": true,
+          "require_request_uri_registration": true,
+          "pushed_authorization_request_endpoint": "https://op.127.0.0.1.nip.io:9443/simplesaml/module.php/oidc/par",
+          "require_pushed_authorization_requests": false,
+          "grant_types_supported": [
+            "authorization_code",
+            "implicit",
+            "refresh_token"
+          ],
+          "claims_parameter_supported": true,
+          "backchannel_logout_supported": true,
+          "backchannel_logout_session_supported": true,
+          "response_modes_supported": [
+            "query",
+            "fragment",
+            "form_post"
+          ],
+          "authorization_response_iss_parameter_supported": true,
+          "ui_locales_supported": [
+            "en"
+          ],
+          "client_registration_types_supported": [
+            "automatic"
+          ]
+        }
+      },
+      "authority_hints": [
+        "https://ta.127.0.0.1.nip.io:9443"
+      ]
+    },
+    "subordinates": []
+  },
+  "https://rp.127.0.0.1.nip.io:9443": {
+    "configuration": {
+      "authority_hints": [
+        "https://ta.127.0.0.1.nip.io:9443"
+      ],
+      "exp": 1793981089,
+      "iat": 1793894689,
+      "iss": "https://rp.127.0.0.1.nip.io:9443",
+      "jwks": {
+        "keys": [
+          {
+            "alg": "ML-DSA-44",
+            "iat": 1793278987,
+            "kid": "_tdXIWXgg0dV1G6bcZIHG7LCV3nB2bzAM4BdedKmuzg",
+            "kty": "AKP",
+            "nbf": 1793278987,
+            "pub": "1s_N5Yz0509bp6B9rAWH9IfKvDyHKOHyacbhdInugzIC9XaZ5w2pgGST50WUtlY6X_BktXCMWNbQ1soSSbgXW4YEL5pFNUqK1y_Hdya1THBtXwzylck7vzOMxR20udFGsIBtJG9frA_QmdlcWJ_k6chLx-P0cPFnmbnQ9rD--reAjz0SDHEAgZoSbvJGWIhb5E_lHcVBdMUNhdlqZwzjUmNtxvPE4oME5KAXGhIRRO2mZR5URJ5FUiAHxwk3HspIvpnLajQMT92JcHBXrSBPyb-RaKqCC-BmwiYZNa2zZP-IVet4zqCsM1KXURH0ioE13TBL_9ZGq-zPqoUTBq0BKdiZLRvWehMNuIKUj03zQTt0VRfCP9rLRvVKdEcsYIbbBsBOBIj7GdW3fyYJCruStOXhtPIfUqa0udgVF5JUPXjbQqu2gElh1bp30LGzXrCrq5JZWtkChYqnnZn5S_AHjuSJf-PuK4LoisfAl_9p0laQRTyofyhqvKwk1ll-TdhJwQDuos3hvvzND6XrYeefCSWxr2H6T5sq9PzXUARLrGNDlZvV7erctLrl_tC1qEFYFT-jAtgXRECe7MlzPZQ1JHu1I2Da0QT1JtM3qfMNnvamlzEeFmM2uZDGgQDyYJnMm9JrVQtVPa6kx1_LxqrACDKY-l5Zz05CddBKYqz6LmIqljaRMGD7qzUD-mVWdvSDa28ihJs-lbbN0j3PBkk4_GZYRa4W18gwigETgzY3eHN4tdn8W1XQCH6obKqKfZQ6OHZVn_rODeMzIQgqtAvoDZONIiOxXJsOrHEnOTBk6JmK6-4ELs6MYJTBJ-NOIBEmY_d_-z3q68fv_B8arvjULKbRNrxu_-h90IhuozdQk3AdoAQ3QH8AT2ACNgpw7-mcfqZgstH78aT79u8JjlL-hrsJAvsMbCrkN3_Io7KXuwuiH8RVz_5F7HZnuNv8QkaNSZjjSGYV925PXin3DsyQIbyS8kM3crPv_WiBiJzpCWocBXEF-jLRcWzgw2xyUc9xRYIFR5MHWmiuevF-0vkoVGUwAtC2GWgskDIWTkNl-F52r0eSNIzbYDsXzduOUaZbnj8gz_w2b8g_JOR5TCix8qX8dCLDxHRbjBsu-TMs1hk6BDfYgyEqfnpv2XY1HOd9eMrgsXw9bsDd34Oxa-v8qwc1HJR-5mA8ObPrgCcEe1V8yIvGk0yrAPtJVboAWlGY4eBTE4DseiJiK_OmnOHpu7_38V-u9lciumTD3BCODzjcJZYNxrrBd1zaQpXbW-MqUI5XxLiyXpp6Tki18jKXBQK9WpBpm09xEAnbhVQ6TJeAwwWvSL5OX79MGBx_YlTPgZ8O-POwMxwqu5SryC8OIDC_UuMrRoRm2Oehye0Er5ilI2-wEjFTzEU97g5jcBAWPJKxKesnZN14kKIqsYFjENN0sM0KNRXrZL7B215lXNphIYClvv8K3ysyAD9H-rfFlrcXJvxYuz2f2mw4rlEI717-boUPQWNkbRVbk8gYuHVkEndqIot7HCNUkNkt9liuXw5LnkhFwSPIwVwtlsx5cYNy7jZetIWodW3wXUfzw27mPKOR-HurcEuvzbcnaVI6MoNvJOCR79b3n3JeR0DO9jbanTaz4W834lti2u7-tdZDWAU095xviBXOzjuCFEyZMcBnPfR7yhR1iSbz5USXzg7pVDTXlpSTkm_G98a_r6i6shuilFLEz6WzPGAn7r-gMCRE1bRNjdGcl8-zTPJg3A",
+            "use": "sig"
+          }
+        ]
+      },
+      "metadata": {
+        "federation_entity": {
+          "display_name": "OFFA ML-DSA lab RP",
+          "logo_uri": "https://rp.127.0.0.1.nip.io:9443/static/img/offa-text.svg"
+        },
+        "openid_relying_party": {
+          "application_type": "web",
+          "client_name": "OFFA ML-DSA lab RP",
+          "client_registration_types": [
+            "automatic"
+          ],
+          "display_name": "OFFA ML-DSA lab RP",
+          "grant_types": [
+            "authorization_code"
+          ],
+          "id_token_signed_response_alg": "ML-DSA-44",
+          "id_token_signing_alg_values_supported": [
+            "ES512",
+            "ES256",
+            "ES384",
+            "ES256K",
+            "EdDSA",
+            "Ed25519",
+            "Ed448",
+            "PS512",
+            "PS256",
+            "PS384",
+            "RS512",
+            "RS384",
+            "RS256",
+            "ML-DSA-44",
+            "ML-DSA-65",
+            "ML-DSA-87",
+            "ML-DSA-44-ES256",
+            "ML-DSA-65-ES256",
+            "ML-DSA-87-ES384",
+            "ML-DSA-44-Ed25519",
+            "ML-DSA-65-Ed25519",
+            "ML-DSA-87-Ed448"
+          ],
+          "initiate_login_uri": "https://rp.127.0.0.1.nip.io:9443/login",
+          "jwks": {
+            "keys": [
+              {
+                "alg": "ML-DSA-44",
+                "iat": 1793278986,
+                "kid": "PShNt14T7Xs8azdPNrkrQeOSa1XjotvgLJZqG6YwcdY",
+                "kty": "AKP",
+                "nbf": 1793278986,
+                "pub": "rUoNPiN_mgzpo5CTT7oCZvHbRwFiZfjGRhjCvAuVQLkBiccND0DL_B4lf7s2VnwVFaAHd2dkE06Rkw04istXDEvLpcMOG6HISBypcF9dtxVa5CezAE-CtINVdeqYxXLOUBknvrMGR25pbHW6Xx3CKF_34FFyP52eAjSVla6cL1k_0J0nGUhAgJe_HS0ZFWD5PNz0mQuSxkol1ty3dHM2QVUK8NXYU22s_FPOKRbSkjItomPCd90_PQ_a3Z9wPyWuegFKiPe7fG2TbLtr3F5nQ2b1m3gG4y-UEE5nkC2itrx7xj7lorZopMaaP2b5sENMWKgszDiODJE2MkIPKud1baA-prhFM6-55dZlHSNWgXx3GiqwsGNISOZ6wZyx3DKRrbErGOxCmC993TFaeAFLmCpe8Vw1hphWnC8BTO8ymdJF-aiZ1zEHNcLn8wGSahWFQj1_Hs-97EPYz8OY96bWCAMzaGAwWtoEQMYco8sEKig3fVWgOUmRxektMfeUsd5Tm4fSgueVYPIOe8_wJuj2jdioVjmtefC3LLuJHhMw7tGcH69uxLNzFhMtn70Q_mRVFyFS7L-j_HX1hmlBLWVrsID7BaEUGRADcPZ-_sPqRHILvkWzQ0Y5tGxiSCwsj0-E2ZzZusEEZfroZdxeKqBk-Drr3-Z6a-t9W1sF6FsKO7UB4AaTKYDCrTW5Arsn620AEbG_Zdx93MFCgqDsWdTjt6wR7HItTY-wNCOc5TV4XlPEuIr1Bv46XrfjJa5OpbrVagbay9j4INGLwIzXYNpqNqG1yUFQfZovAiOdTXus7Gjr3lmwVTVLZBmyukPeYl-vUUEYtAPtHKreW_JKBeMuVt0zrK8w5d_ey0gE5ZeZIDC2RUSRykBN0J7azi163H2jz-5FbPS9IvgvA_yXffeF6ed2wd57OfkaNx7OQyrJwhzBUiaHwJkUceihGaYFc2_x00rbHs-niptfYdfwTBH9C5414o5LEFcxjaFOHSeK31BVptV7N6GewRcsIUxlngmh3kmoxEhd43aESOvyoOIv3kRjYuEX-Ef-E4fHg3iW21onyEEi1LLmwYygUn7kVp0AvTjyr7agHNk2r-45p-t4QygJbAzEA_EOpg7HII0bg3Pfu9BFmYa2f2h7oSvbG3QB4i5SbCvbjNr3si7bOn3cE9JpWP5FLCB4ezRGb3mrwEjHydPkMzjiJsnyTMaYLOpLH6zZCRIh8H2SHtHtgLSk49JCcD6ZEL6QmQZxHEjlFPrLsdtmgJ_kTDOsrQVIh3yDTeL3iY5bZFdRg_TThqzHwYrwBF_yp4bKExP6_FFXgSC-I772PZNSP41-t8lBFFInltTETR64r-O6E3s3VUsPnYPjFypg8M-u3wA3wzqemi-R4ENGYyGYqtVkuwu1ChW7olLFEHmR-YlToO5E8YcpjaXBZQCT8fpO9tV5K8JGuHvPEY79Zncd9Nqhwxmoyr6xkszFPbLwOMMQWLQ7d4ZqTDZuaVAx2QaqbrZs_6asY39NZ75r34fAH6-XAQN0NRDmN3n1cSMkXB-fsRWEMPKa1bFJcB749pjpWrGXcsAv2fZqgvNW8pOnMgZ0iK20mQkDvXg2BWqPuK80Da--dpxFmSHFztnClxWK9EKc9InQYzEhw-HfO3tC4ZSgkORe5KMvsVzaVMzgk_QrRimv-gqjXdmZMu_uzbeXI2rmJPxNfYqppMOhAUP_1A9BSqkpVawGJGRHamfutmrrATP2QYReCw",
+                "use": "sig"
+              },
+              {
+                "alg": "RS256",
+                "e": "AQAB",
+                "iat": 1793278987,
+                "kid": "yYdfqT1QSnjZz7RmxPjLW_dlPSi8uqS_lQf_ACaJWU4",
+                "kty": "RSA",
+                "n": "piFDRcGDF0tKQEdu49GvktD6TffcsE8BVQL4y-Kspp_4WySPHDN7ec2nYsAhEYjoU_fVR9gfWjDt4jtOmvGiSC_EmQeyuBMabylOBQcxfPPN_5dIN_TrsF1cLFYzqsXPPzFUXERVedw4TQmv9VOGo4Tw8XbfNx49xOl6sY_nPk7C2LJHA11mKD3Gb4UHGMT73gezcU0v8XzaLJp2rwEIC5lAN17TKntkanLG09oEVb4FZ2HX_QHM9mgljnms08KvLoJ8sjb3N1x0yPXPNied5us8pfKRWXK2wf1SAVE_Q6N6uXxz2AyrPIycNlHSrcqr4TXvqWyN3NDNHFx0V6nxOQ",
+                "nbf": 1793278987,
+                "use": "sig"
+              }
+            ]
+          },
+          "logo_uri": "https://rp.127.0.0.1.nip.io:9443/static/img/offa-text.svg",
+          "redirect_uris": [
+            "https://rp.127.0.0.1.nip.io:9443/redirect"
+          ],
+          "request_object_signing_alg_values_supported": [
+            "ES512",
+            "ES256",
+            "ES384",
+            "ES256K",
+            "EdDSA",
+            "Ed25519",
+            "Ed448",
+            "PS512",
+            "PS256",
+            "PS384",
+            "RS512",
+            "RS384",
+            "RS256",
+            "ML-DSA-44",
+            "ML-DSA-65",
+            "ML-DSA-87",
+            "ML-DSA-44-ES256",
+            "ML-DSA-65-ES256",
+            "ML-DSA-87-ES384",
+            "ML-DSA-44-Ed25519",
+            "ML-DSA-65-Ed25519",
+            "ML-DSA-87-Ed448"
+          ],
+          "response_types": [
+            "code"
+          ],
+          "scope": "openid profile email",
+          "software_id": "993a3850-60bf-11f0-ac62-5b2200a58e68",
+          "software_version": "0.6.2",
+          "token_endpoint_auth_method": "private_key_jwt",
+          "token_endpoint_auth_signing_alg": "ML-DSA-44",
+          "token_endpoint_auth_signing_alg_values_supported": [
+            "ES512",
+            "ES256",
+            "ES384",
+            "ES256K",
+            "EdDSA",
+            "Ed25519",
+            "Ed448",
+            "PS512",
+            "PS256",
+            "PS384",
+            "RS512",
+            "RS384",
+            "RS256",
+            "ML-DSA-44",
+            "ML-DSA-65",
+            "ML-DSA-87",
+            "ML-DSA-44-ES256",
+            "ML-DSA-65-ES256",
+            "ML-DSA-87-ES384",
+            "ML-DSA-44-Ed25519",
+            "ML-DSA-65-Ed25519",
+            "ML-DSA-87-Ed448"
+          ],
+          "userinfo_signed_response_alg": "ML-DSA-44",
+          "userinfo_signing_alg_values_supported": [
+            "ES512",
+            "ES256",
+            "ES384",
+            "ES256K",
+            "EdDSA",
+            "Ed25519",
+            "Ed448",
+            "PS512",
+            "PS256",
+            "PS384",
+            "RS512",
+            "RS384",
+            "RS256",
+            "ML-DSA-44",
+            "ML-DSA-65",
+            "ML-DSA-87",
+            "ML-DSA-44-ES256",
+            "ML-DSA-65-ES256",
+            "ML-DSA-87-ES384",
+            "ML-DSA-44-Ed25519",
+            "ML-DSA-65-Ed25519",
+            "ML-DSA-87-Ed448"
+          ]
+        }
+      },
+      "offa_version": "0.6.2",
+      "sub": "https://rp.127.0.0.1.nip.io:9443",
+      "trust_anchor_hints": [
+        "https://ta.127.0.0.1.nip.io:9443"
+      ]
+    },
+    "subordinates": []
+  }
+}
